@@ -1,0 +1,137 @@
+/* GOLBAL */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "logo";
+  src: url(../fonts/MochiyPopPOne-Regular.ttf);
+}
+@font-face {
+  font-family: "botones";
+  src: url(../fonts/FredokaOne-Regular.ttf);
+}
+
+/* HEADER */
+.navbar {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+.navbar-brand {
+  font-family: "logo";
+  color: #f3a56e;
+}
+
+.navbar-brand span {
+  color: #f3a56e;
+}
+
+.btn {
+  font-family: "botones";
+  background-color: #f3a56e;
+  color: #fff;
+}
+
+.btn:hover {
+  font-family: "botones";
+  background-color: #f7944e;
+  color: #fff;
+}
+
+/* SECTION PERFIL */
+.perfil {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  max-width: 980px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.perfil .perfil-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 400px;
+}
+
+.perfil .perfil-btn {
+  padding: 10px;
+  background-color: #f3a56e;
+  border-radius: 8px;
+  cursor: pointer;
+  border-color: #e2a87e;
+  font-family: "botones", "Arial";
+  font-size: 15px;
+  color: #fff;
+}
+
+.perfil-titulo {
+  color: #345d7e;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.perfil-detallado {
+  font-size: 20px;
+}
+.perfil-img {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  background-color: #cccccc;
+  border-radius: 50%;
+}
+
+/* RESPONSIVE */
+
+/* CELULAR */
+@media (min-width: 400px) and (max-width: 863px) {
+  .perfil {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .perfil-img {
+        display: flex;
+        justify-content: center;
+        background-color: #cccccc;
+        border-radius: 50%;
+        margin: 15px;
+      }
+
+      .perfil-img img{
+              width:50%;
+      }
+      .perfil-titulo {
+        color: #345d7e;
+        font-size: 35px;
+        font-weight: 600;
+        text-align: center;
+      }
+}
+
+
+/* RESPONSIVE TABLETS */
+
+@media (min-width: 864px) and (max-width: 1043px){
+        .perfil {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: center;
+                max-width: 980px;
+                margin: 0 auto;
+                padding-bottom: 30px;
+              }
+
+              .perfil-img {
+                display: flex;
+                justify-content: center;
+                background-color: #cccccc;
+                border-radius: 50%;
+                margin: 15px;
+              }
+}
