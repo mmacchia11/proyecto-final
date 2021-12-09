@@ -94,7 +94,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #345d7e;
+  background-color: #5e98c7;
   padding: 15px;
   height: 500px;
 }
@@ -141,6 +141,50 @@
   color: #fff;
 }
 /* SECTION HERRAMIRNTAS END*/
+
+
+/* SECTION PORQUE-WEB */
+.porque-web{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.porque-web h1{
+  margin: 15px;
+  color: #345d7e;
+}
+
+.porque-web .contenido-uno{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.porque-web .contenido-uno img{
+  width:394px;
+}
+
+.porque-web .contenido-dos{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.porque-web p{
+  width:500px;
+}
+
+/* SECTION PORQUE-WEB END */
+
+
+
 
 /* RESPONSIVE */
 
