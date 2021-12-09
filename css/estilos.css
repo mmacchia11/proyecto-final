@@ -233,6 +233,11 @@
     margin: 20px;
     width: 80%;
   }
+
+  /* SECTION PORQUE-WEB */
+  .porque-web p{
+    width:400px;
+  }
 }
 
 /* RESPONSIVE TABLETS */
