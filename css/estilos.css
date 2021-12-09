@@ -85,10 +85,69 @@
   border-radius: 50%;
 }
 
+/* SECTION PERFIL END*/
+
+/* SECTION HERRAMIRNTAS */
+.herramientas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #345d7e;
+  padding: 15px;
+  height: 500px;
+}
+.img-herramientas {
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-herramientas img {
+  border-radius: 50%;
+  width: 200px;
+  margin: 15px;
+}
+
+.herramientas .texto-herramientas {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 700px;
+}
+
+.texto-herramientas p {
+  color: #fff;
+}
+
+.btn-herramientas {
+  padding: 10px;
+  background-color: #f3a56e;
+  border-radius: 8px;
+  cursor: pointer;
+  border-color: #e2a87e;
+  font-family: "botones", "Arial";
+  font-size: 15px;
+  color: #fff;
+}
+
+.btn-herramientas a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-herramientas:hover {
+  font-family: "botones";
+  background-color: #f7944e;
+  color: #fff;
+}
+/* SECTION HERRAMIRNTAS END*/
+
 /* RESPONSIVE */
 
-/* CELULAR */
+/* RESPONSIVE CELULAR */
 @media (min-width: 400px) and (max-width: 863px) {
+  /* PRESENTACION */
+
   .perfil {
     display: flex;
     flex-direction: column-reverse;
@@ -96,42 +155,68 @@
   }
 
   .perfil-img {
-        display: flex;
-        justify-content: center;
-        background-color: #cccccc;
-        border-radius: 50%;
-        margin: 15px;
-      }
+    display: flex;
+    justify-content: center;
+    background-color: #cccccc;
+    border-radius: 50%;
+    margin: 15px;
+  }
 
-      .perfil-img img{
-              width:50%;
-      }
-      .perfil-titulo {
-        color: #345d7e;
-        font-size: 35px;
-        font-weight: 600;
-        text-align: center;
-      }
+  .perfil-img img {
+    width: 50%;
+  }
+  .perfil-titulo {
+    color: #345d7e;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+  }
+  /* HERRAMIENTAS */
+
+  .herramientas {
+    height: auto;
+    display: flex;
+  }
+  .img-herramientas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .herramientas .texto-herramientas {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 80%;
+  }
 }
-
 
 /* RESPONSIVE TABLETS */
 
-@media (min-width: 864px) and (max-width: 1043px){
-        .perfil {
-                display: flex;
-                flex-direction: row-reverse;
-                justify-content: center;
-                max-width: 980px;
-                margin: 0 auto;
-                padding-bottom: 30px;
-              }
+@media (min-width: 864px) and (max-width: 1043px) {
+  .perfil {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    max-width: 980px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
 
-              .perfil-img {
-                display: flex;
-                justify-content: center;
-                background-color: #cccccc;
-                border-radius: 50%;
-                margin: 15px;
-              }
+  .perfil-img {
+    display: flex;
+    justify-content: center;
+    background-color: #cccccc;
+    border-radius: 50%;
+    margin: 15px;
+  }
+
+  /* HERRAMIENTAS */
+
+  .herramientas .texto-herramientas {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 80%;
+  }
 }
