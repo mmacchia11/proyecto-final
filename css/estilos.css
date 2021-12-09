@@ -142,9 +142,8 @@
 }
 /* SECTION HERRAMIRNTAS END*/
 
-
 /* SECTION PORQUE-WEB */
-.porque-web{
+.porque-web {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -153,23 +152,23 @@
   text-align: center;
 }
 
-.porque-web h1{
+.porque-web h1 {
   margin: 15px;
   color: #345d7e;
 }
 
-.porque-web .contenido-uno{
+.porque-web .contenido-uno {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.porque-web .contenido-uno img{
-  width:394px;
+.porque-web .contenido-uno img {
+  width: 394px;
 }
 
-.porque-web .contenido-dos{
+.porque-web .contenido-dos {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
@@ -177,14 +176,11 @@
   flex-wrap: wrap;
 }
 
-.porque-web p{
-  width:500px;
+.porque-web p {
+  width: 500px;
 }
 
 /* SECTION PORQUE-WEB END */
-
-
-
 
 /* RESPONSIVE */
 
@@ -235,8 +231,8 @@
   }
 
   /* SECTION PORQUE-WEB */
-  .porque-web p{
-    width:400px;
+  .porque-web p {
+    width: 400px;
   }
 }
 
