@@ -182,6 +182,88 @@
 
 /* SECTION PORQUE-WEB END */
 
+/* ************************ SERVICIOS INDEX ********************************* */
+.titulo-servicios {
+  text-align: center;
+}
+
+.secciones-servicios {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#section-individual{
+  margin: 10px;
+} 
+
+.maquetacion{
+  background-color: #48b4ee;
+  display: flex;
+  width:70%;
+  justify-content: space-between;
+    align-items: center;
+}
+
+.maquetacion .info-maquetacion{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+  width:70%
+}
+
+.maquetacion .info-maquetacion p{
+  width: 70%;
+}
+
+.javascrit{
+  background-color:#eee9a7;
+  display: flex;
+  flex-direction: row-reverse;
+  width:70%;
+  justify-content: space-between;
+    align-items: center;
+}
+
+.javascrit .info-javascrit{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+  width:70%
+}
+
+.javascrit .info-javascrit p{
+  width: 70%;
+}
+
+.react{
+  background-color: #345d7e;
+  display: flex;
+  width:70%;
+  justify-content: space-between;
+    align-items: center;
+}
+
+.react .info-react{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+  width:70%
+}
+
+.react .info-react p{
+  width: 70%;
+}
+
+
+/* ************************ SERVICIOS INDEX END ******************************* */
+
 /* RESPONSIVE */
 
 /* RESPONSIVE CELULAR */
