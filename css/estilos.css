@@ -316,6 +316,39 @@ align-items: center;
   .porque-web p {
     width: 400px;
   }
+
+
+  /* PAGES SERVICIOS */
+  .maquetacion{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding:10px;
+  }
+  .javascrit{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding:10px;
+  }
+  .react{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding:10px;
+  }
+  .maquetacion .info-maquetacion p{
+    width:100%;
+    text-align: center;
+  }
+  .javascrit .info-javascrit p{
+    width:100%;
+    text-align: center;
+  }
+  .react .info-react p{
+    width:100%;
+    text-align: center;
+  }
 }
 
 /* RESPONSIVE TABLETS */
