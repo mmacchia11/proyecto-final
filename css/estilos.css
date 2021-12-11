@@ -264,6 +264,39 @@ align-items: center;
 
 /* ************************ SERVICIOS INDEX END ******************************* */
 
+/* ************************ SOBRE MI INDEX END ******************************* */
+.section-sobremi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-sobremi .sobremi-info {
+  width: 50%;
+}
+
+
+.relax{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #e2a87e
+}
+
+.sobremi-imgdos img{
+  border-radius: 50%;
+  margin:15px;
+}
+
+.section-sobremi .sobremi-infodos {
+  width:50%;
+}
+
+
+/* ************************ SOBRE MI INDEX END ******************************* */
 /* RESPONSIVE */
 
 /* RESPONSIVE CELULAR */
