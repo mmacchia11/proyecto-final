@@ -193,79 +193,77 @@
   margin: 15px;
   justify-content: center;
   align-items: center;
-  
 }
 
-#section-individual{
+#section-individual {
   margin: 10px;
-} 
+}
 
-.maquetacion{
+.maquetacion {
   background-color: #48b4ee;
   display: flex;
-  width:70%;
+  width: 70%;
   justify-content: space-between;
-    align-items: center;
+  align-items: center;
 }
 
-.maquetacion .info-maquetacion{
+.maquetacion .info-maquetacion {
   display: flex;
   flex-direction: column;
   justify-content: center;
-align-items: center;
-  width:70%
-}
-
-.maquetacion .info-maquetacion p{
+  align-items: center;
   width: 70%;
 }
 
-.javascrit{
-  background-color:#eee9a7;
+.maquetacion .info-maquetacion p {
+  width: 70%;
+}
+
+.javascrit {
+  background-color: #eee9a7;
   display: flex;
   flex-direction: row-reverse;
-  width:70%;
+  width: 70%;
   justify-content: space-between;
-    align-items: center;
+  align-items: center;
 }
 
-.javascrit .info-javascrit{
+.javascrit .info-javascrit {
   display: flex;
   flex-direction: column;
   justify-content: center;
-align-items: center;
-  width:70%
-}
-
-.javascrit .info-javascrit p{
+  align-items: center;
   width: 70%;
 }
 
-.react{
+.javascrit .info-javascrit p {
+  width: 70%;
+}
+
+.react {
   background-color: #345d7e;
   display: flex;
-  width:70%;
+  width: 70%;
   justify-content: space-between;
-    align-items: center;
+  align-items: center;
 }
 
-.react .info-react{
+.react .info-react {
   display: flex;
   flex-direction: column;
   justify-content: center;
-align-items: center;
-  width:70%
-}
-
-.react .info-react p{
+  align-items: center;
   width: 70%;
 }
 
+.react .info-react p {
+  width: 70%;
+}
 
 /* ************************ SERVICIOS INDEX END ******************************* */
 
 /* ************************ SOBRE MI INDEX END ******************************* */
-.section-sobremi{
+.section-sobremi {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -276,28 +274,129 @@ align-items: center;
   width: 50%;
 }
 
-
-.relax{
+.relax {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #e2a87e
+  background-color: #e2a87e;
 }
 
-.sobremi-imgdos img{
+.sobremi-imgdos img {
   border-radius: 50%;
-  margin:15px;
+  margin: 15px;
 }
 
 .section-sobremi .sobremi-infodos {
-  width:50%;
+  width: 50%;
 }
 
-
 /* ************************ SOBRE MI INDEX END ******************************* */
+
+/* ************************ CONTACTO INDEX  ******************************* */
+
+#main-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#main-form .titulo-contacto {
+  text-align: center;
+  font-weight: 700;
+  color: #e2a87e;
+}
+.form-contacto {
+  background: #fff;
+  padding: 40px 0;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+.grupo textarea {
+  width: 410px;
+}
+
+.form {
+  width: 100%;
+  margin: auto;
+}
+
+.form .grupo {
+  position: relative;
+  margin: 45px;
+}
+
+input,
+textarea {
+  background: none;
+  color: #918f8f;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #49454567;
+}
+
+input:focus {
+  outline: none;
+  color: #5e5d5d;
+}
+
+textarea:focus {
+  outline: none;
+  color: #5e5d5d;
+}
+
+label {
+  color: #49454567;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  top: 10px;
+  transition: 0.5s ease-in-out all;
+  pointer-events: none;
+}
+
+input:focus ~ label {
+  top: -14px;
+  font-size: 12px;
+  color: #345d7e;
+}
+
+textarea:focus ~ label {
+  top: -14px;
+  font-size: 12px;
+  color: #345d7e;
+}
+
+.btn-contacto {
+  font-size: 16px;
+  font-family: "roboto";
+  background-color: #f3a56e;
+  border: none;
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  color: #fff;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* ************************ CONTACTO INDEX END ******************************* */
+
 /* RESPONSIVE */
+
 
 /* RESPONSIVE CELULAR */
 @media (min-width: 400px) and (max-width: 863px) {
@@ -350,37 +449,40 @@ align-items: center;
     width: 400px;
   }
 
-
   /* PAGES SERVICIOS */
-  .maquetacion{
+  .maquetacion {
     display: flex;
     flex-direction: column;
     width: 400px;
-    padding:10px;
+    padding: 10px;
   }
-  .javascrit{
+  .javascrit {
     display: flex;
     flex-direction: column;
     width: 400px;
-    padding:10px;
+    padding: 10px;
   }
-  .react{
+  .react {
     display: flex;
     flex-direction: column;
     width: 400px;
-    padding:10px;
+    padding: 10px;
   }
-  .maquetacion .info-maquetacion p{
-    width:100%;
+  .maquetacion .info-maquetacion p {
+    width: 100%;
     text-align: center;
   }
-  .javascrit .info-javascrit p{
-    width:100%;
+  .javascrit .info-javascrit p {
+    width: 100%;
     text-align: center;
   }
-  .react .info-react p{
-    width:100%;
+  .react .info-react p {
+    width: 100%;
     text-align: center;
+  }
+
+  .contacto-img img {
+    width: 400px;
   }
 }
 
