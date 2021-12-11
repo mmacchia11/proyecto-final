@@ -406,9 +406,10 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .titulo-proyectos {
   text-align: center;
+  color:#e2a87e
 }
 .section-proyectos .proyecto {
-  width: 400px;
+  width: 450px;
   margin: 30px;
   display: flex;
   flex-direction: column;
