@@ -395,8 +395,27 @@ input[type="number"]::-webkit-outer-spin-button {
 
 /* ************************ CONTACTO INDEX END ******************************* */
 
-/* RESPONSIVE */
+/* ************************ PROYECTOS INDEX  ******************************* */
+.section-proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
 
+.titulo-proyectos {
+  text-align: center;
+}
+.section-proyectos .proyecto {
+  width: 400px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ************************ PROYECTOS INDEX END ******************************* */
+/* RESPONSIVE */
 
 /* RESPONSIVE CELULAR */
 @media (min-width: 400px) and (max-width: 863px) {
