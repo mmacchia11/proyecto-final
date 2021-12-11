@@ -401,6 +401,7 @@ input[type="number"]::-webkit-outer-spin-button {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  padding:20px;
 }
 
 .titulo-proyectos {
