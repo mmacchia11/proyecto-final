@@ -1,0 +1,19 @@
+$titulos:(
+        h1: 2rem,
+        h2: 2.5rem,
+        h3: 2.0rem,   
+);
+
+$h1:map-get($titulos, h1);
+$h2:map-get($titulos, h2);
+$h3:map-get($titulos, h3);
+
+// USO DE MIXINS EN SASS;
+
+@mixin caja-flex($principal, $cruzado, $wrap){
+        display: flex;
+        justify-content: $principal;
+        align-items: $cruzado;
+        flex-wrap: $wrap;
+    }
+    

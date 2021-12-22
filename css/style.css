@@ -1,4 +1,9 @@
 /* GOLBAL */
+* {
+  padding: 0;
+  margin: 0;
+}
+
 @font-face {
   font-family: "logo";
   src: url(../fonts/MochiyPopPOne-Regular.ttf);
@@ -7,17 +12,12 @@
   font-family: "botones";
   src: url(../fonts/FredokaOne-Regular.ttf);
 }
-* {
-  padding: 0;
-  margin: 0;
-}
 
 /* HEADER */
 .navbar {
   border-bottom: 1px solid #ccc;
   margin-bottom: 15px;
 }
-
 .navbar-brand {
   font-family: "logo";
   color: #f3a56e;
@@ -32,6 +32,7 @@
   background-color: #f3a56e;
   color: #fff;
 }
+
 .btn:hover {
   font-family: "botones";
   background-color: #f7944e;
@@ -47,12 +48,14 @@
   margin: 0 auto;
   padding-bottom: 30px;
 }
+
 .perfil .perfil-info {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   width: 400px;
 }
+
 .perfil .perfil-btn {
   padding: 10px;
   background-color: #f3a56e;
@@ -66,14 +69,13 @@
 
 .perfil-titulo {
   color: #345d7e;
-  font-size: 2rem;
+  font-size: 35px;
   font-weight: 600;
 }
 
 .perfil-detallado {
   font-size: 20px;
 }
-
 .perfil-img {
   width: 400px;
   height: 400px;
@@ -84,6 +86,7 @@
 }
 
 /* SECTION PERFIL END*/
+
 /* SECTION HERRAMIRNTAS */
 .herramientas {
   display: flex;
@@ -95,14 +98,6 @@
   padding: 15px;
   height: 500px;
 }
-.herramientas .texto-herramientas {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  width: 700px;
-  color: #fff;
-}
-
 .img-herramientas {
   display: flex;
   flex-wrap: wrap;
@@ -111,6 +106,17 @@
   border-radius: 50%;
   width: 200px;
   margin: 15px;
+}
+
+.herramientas .texto-herramientas {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 700px;
+}
+
+.texto-herramientas p {
+  color: #fff;
 }
 
 .btn-herramientas {
@@ -123,17 +129,19 @@
   font-size: 15px;
   color: #fff;
 }
+
 .btn-herramientas a {
   color: #fff;
   text-decoration: none;
 }
+
 .btn-herramientas:hover {
   font-family: "botones";
   background-color: #f7944e;
   color: #fff;
 }
-
 /* SECTION HERRAMIRNTAS END*/
+
 /* SECTION PORQUE-WEB */
 .porque-web {
   display: flex;
@@ -143,20 +151,23 @@
   padding: 30px;
   text-align: center;
 }
+
 .porque-web h1 {
   margin: 15px;
   color: #345d7e;
-  font-size: 2rem;
 }
+
 .porque-web .contenido-uno {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
+
 .porque-web .contenido-uno img {
   width: 394px;
 }
+
 .porque-web .contenido-dos {
   display: flex;
   flex-direction: row-reverse;
@@ -164,11 +175,13 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
 .porque-web p {
   width: 500px;
 }
 
 /* SECTION PORQUE-WEB END */
+
 /* ************************ SERVICIOS INDEX ********************************* */
 .titulo-servicios {
   text-align: center;
@@ -186,21 +199,23 @@
   margin: 10px;
 }
 
-.maquetacion, .react {
+.maquetacion {
   background-color: #48b4ee;
   display: flex;
   width: 70%;
   justify-content: space-between;
   align-items: center;
 }
-.maquetacion .info-maquetacion, .react .info-maquetacion {
+
+.maquetacion .info-maquetacion {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 70%;
 }
-.maquetacion .info-maquetacion p, .react .info-maquetacion p {
+
+.maquetacion .info-maquetacion p {
   width: 70%;
 }
 
@@ -212,6 +227,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .javascrit .info-javascrit {
   display: flex;
   flex-direction: column;
@@ -219,13 +235,19 @@
   align-items: center;
   width: 70%;
 }
+
 .javascrit .info-javascrit p {
   width: 70%;
 }
 
 .react {
   background-color: #345d7e;
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .react .info-react {
   display: flex;
   flex-direction: column;
@@ -233,11 +255,13 @@
   align-items: center;
   width: 70%;
 }
+
 .react .info-react p {
   width: 70%;
 }
 
 /* ************************ SERVICIOS INDEX END ******************************* */
+
 /* ************************ SOBRE MI INDEX END ******************************* */
 .section-sobremi {
   display: flex;
@@ -245,6 +269,7 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
 .section-sobremi .sobremi-info {
   width: 50%;
 }
@@ -262,26 +287,26 @@
   border-radius: 50%;
   margin: 15px;
 }
-
 .sobremi-infodos {
   width: 50%;
 }
 
 /* ************************ SOBRE MI INDEX END ******************************* */
+
 /* ************************ CONTACTO INDEX  ******************************* */
+
 #main-form {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
+
 #main-form .titulo-contacto {
   text-align: center;
   font-weight: 700;
   color: #e2a87e;
-  font-size: 2.5rem;
 }
-
 .form-contacto {
   background: #fff;
   padding: 40px 0;
@@ -297,6 +322,7 @@
   width: 100%;
   margin: auto;
 }
+
 .form .grupo {
   position: relative;
   margin: 45px;
@@ -313,12 +339,12 @@ textarea {
   border: none;
   border-bottom: 1px solid #49454567;
 }
-input:focus,
-textarea:focus {
+
+input:focus {
   outline: none;
   color: #5e5d5d;
 }
-input:focus,
+
 textarea:focus {
   outline: none;
   color: #5e5d5d;
@@ -360,20 +386,19 @@ textarea:focus ~ label {
   cursor: pointer;
   border-radius: 15px;
 }
-
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
 /* ************************ CONTACTO INDEX END ******************************* */
+
 /* ************************ PROYECTOS INDEX  ******************************* */
 .main-proyectos {
   display: flex;
   justify-content: center;
 }
-
 .section-proyectos {
   display: flex;
   flex-wrap: wrap;
@@ -381,6 +406,11 @@ input[type=number]::-webkit-outer-spin-button {
   align-content: center;
   padding: 20px;
   width: 1200px;
+}
+
+.titulo-proyectos {
+  text-align: center;
+  color: #e2a87e;
 }
 .section-proyectos .proyecto {
   width: 300px;
@@ -390,16 +420,13 @@ input[type=number]::-webkit-outer-spin-button {
   align-items: center;
 }
 
-.titulo-proyectos {
-  text-align: center;
-  color: #e2a87e;
-}
-
 /* ************************ PROYECTOS INDEX END ******************************* */
 /* RESPONSIVE */
+
 /* RESPONSIVE CELULAR */
 @media (min-width: 400px) and (max-width: 863px) {
   /* PRESENTACION */
+
   .perfil {
     display: flex;
     flex-direction: column-reverse;
@@ -413,33 +440,33 @@ input[type=number]::-webkit-outer-spin-button {
     border-radius: 50%;
     margin: 15px;
   }
+
   .perfil-img img {
     width: 50%;
   }
-
   .perfil-titulo {
     color: #345d7e;
-    font-size: 2rem;
+    font-size: 35px;
     font-weight: 600;
     text-align: center;
   }
-
   /* HERRAMIENTAS */
+
   .herramientas {
     height: auto;
     display: flex;
   }
+  .img-herramientas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .herramientas .texto-herramientas {
     display: flex;
     flex-direction: column;
     margin: 20px;
     width: 80%;
-  }
-
-  .img-herramientas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
   }
 
   /* SECTION PORQUE-WEB */
@@ -448,37 +475,32 @@ input[type=number]::-webkit-outer-spin-button {
   }
 
   /* PAGES SERVICIOS */
-  .maquetacion, .react {
+  .maquetacion {
     display: flex;
     flex-direction: column;
     width: 400px;
     padding: 10px;
   }
-
   .javascrit {
     display: flex;
     flex-direction: column;
     width: 400px;
     padding: 10px;
   }
-
   .react {
     display: flex;
     flex-direction: column;
     width: 400px;
     padding: 10px;
   }
-
-  .maquetacion .info-maquetacion p, .react .info-maquetacion p {
+  .maquetacion .info-maquetacion p {
     width: 100%;
     text-align: center;
   }
-
   .javascrit .info-javascrit p {
     width: 100%;
     text-align: center;
   }
-
   .react .info-react p {
     width: 100%;
     text-align: center;
@@ -488,7 +510,9 @@ input[type=number]::-webkit-outer-spin-button {
     width: 400px;
   }
 }
+
 /* RESPONSIVE TABLETS */
+
 @media (min-width: 864px) and (max-width: 1043px) {
   .perfil {
     display: flex;
@@ -508,6 +532,7 @@ input[type=number]::-webkit-outer-spin-button {
   }
 
   /* HERRAMIENTAS */
+
   .herramientas .texto-herramientas {
     display: flex;
     flex-direction: column;
@@ -515,5 +540,3 @@ input[type=number]::-webkit-outer-spin-button {
     width: 80%;
   }
 }
-
-/*# sourceMappingURL=estilos.css.map */
