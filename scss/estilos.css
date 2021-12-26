@@ -1,0 +1,740 @@
+/* GOLBAL */
+@font-face {
+  font-family: "logo";
+  src: url(../fonts/MochiyPopPOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: "botones";
+  src: url(../fonts/FredokaOne-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* HEADER */
+.navbar {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.navbar-brand {
+  font-family: "logo";
+  color: #f3a56e;
+}
+
+.navbar-brand span {
+  color: #f3a56e;
+}
+
+.btn {
+  font-family: "botones";
+  background-color: #f3a56e;
+  color: #fff;
+}
+
+.btn:hover {
+  font-family: "botones";
+  background-color: #f7944e;
+  color: #fff;
+}
+
+/* SECTION PERFIL */
+.perfil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 980px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.perfil .perfil-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 400px;
+}
+
+.perfil .perfil-btn {
+  padding: 10px;
+  background-color: #f3a56e;
+  border-radius: 8px;
+  cursor: pointer;
+  border-color: #e2a87e;
+  font-family: "botones", "Arial";
+  font-size: 15px;
+  color: #fff;
+}
+
+.perfil-titulo {
+  color: #345d7e;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.perfil-detallado {
+  font-size: 20px;
+}
+
+.perfil-img {
+  width: 400px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #cccccc;
+  border-radius: 50%;
+}
+
+/* SECTION PERFIL END*/
+/* SECTION HERRAMIRNTAS */
+.herramientas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #5e98c7;
+  padding: 15px;
+  height: 500px;
+}
+
+.herramientas .texto-herramientas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px;
+  width: 700px;
+  color: #fff;
+}
+
+.img-herramientas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.img-herramientas img {
+  border-radius: 50%;
+  width: 200px;
+  margin: 15px;
+}
+
+.btn-herramientas {
+  padding: 10px;
+  background-color: #f3a56e;
+  border-radius: 8px;
+  cursor: pointer;
+  border-color: #e2a87e;
+  font-family: "botones", "Arial";
+  font-size: 15px;
+  color: #fff;
+}
+
+.btn-herramientas a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-herramientas:hover {
+  font-family: "botones";
+  background-color: #f7944e;
+  color: #fff;
+}
+
+/* SECTION HERRAMIRNTAS END*/
+/* SECTION PORQUE-WEB */
+.porque-web {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.porque-web h1 {
+  margin: 15px;
+  color: #345d7e;
+  font-size: 2rem;
+}
+
+.porque-web .contenido-uno {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.porque-web .contenido-uno img {
+  width: 394px;
+}
+
+.porque-web .contenido-dos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.porque-web p {
+  width: 500px;
+}
+
+/* SECTION PORQUE-WEB END */
+/* ************************ SERVICIOS INDEX ********************************* */
+.titulo-servicios {
+  text-align: center;
+}
+
+.secciones-servicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#section-individual {
+  margin: 10px;
+}
+
+.maquetacion, .react {
+  background-color: #48b4ee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maquetacion .info-maquetacion, .react .info-maquetacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+}
+
+.maquetacion .info-maquetacion p, .react .info-maquetacion p {
+  width: 70%;
+}
+
+.javascrit {
+  background-color: #eee9a7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  width: 70%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.javascrit .info-javascrit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+}
+
+.javascrit .info-javascrit p {
+  width: 70%;
+}
+
+.react {
+  background-color: #345d7e;
+}
+
+.react .info-react {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+}
+
+.react .info-react p {
+  width: 70%;
+}
+
+/* ************************ SERVICIOS INDEX END ******************************* */
+/* ************************ SOBRE MI INDEX END ******************************* */
+.section-sobremi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section-sobremi .sobremi-info {
+  width: 50%;
+}
+
+.relax {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #e2a87e;
+}
+
+.sobremi-imgdos img {
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.sobremi-infodos {
+  width: 50%;
+}
+
+/* ************************ SOBRE MI INDEX END ******************************* */
+/* ************************ CONTACTO INDEX  ******************************* */
+#main-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#main-form .titulo-contacto {
+  text-align: center;
+  font-weight: 700;
+  color: #e2a87e;
+  font-size: 2.5rem;
+}
+
+.form-contacto {
+  background: #fff;
+  padding: 40px 0;
+  -webkit-box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+          box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+.grupo textarea {
+  width: 410px;
+}
+
+.form {
+  width: 100%;
+  margin: auto;
+}
+
+.form .grupo {
+  position: relative;
+  margin: 45px;
+}
+
+input,
+textarea {
+  background: none;
+  color: #918f8f;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #49454567;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  color: #5e5d5d;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  color: #5e5d5d;
+}
+
+label {
+  color: #49454567;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  top: 10px;
+  -webkit-transition: 0.5s ease-in-out all;
+  transition: 0.5s ease-in-out all;
+  pointer-events: none;
+}
+
+input:focus ~ label {
+  top: -14px;
+  font-size: 12px;
+  color: #345d7e;
+}
+
+textarea:focus ~ label {
+  top: -14px;
+  font-size: 12px;
+  color: #345d7e;
+}
+
+.btn-contacto {
+  font-size: 16px;
+  font-family: "roboto";
+  background-color: #f3a56e;
+  border: none;
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  color: #fff;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* ************************ CONTACTO INDEX END ******************************* */
+/* ************************ PROYECTOS INDEX  ******************************* */
+.main-proyectos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-proyectos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 20px;
+  width: 1300px;
+}
+
+.section-proyectos .proyecto {
+  width: 300px;
+  margin: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.titulo-proyectos {
+  text-align: center;
+  color: #e2a87e;
+}
+
+/* ************************ PROYECTOS INDEX END ******************************* */
+/* RESPONSIVE */
+/* RESPONSIVE CELULAR */
+@media (min-width: 400px) and (max-width: 863px) {
+  /* PRESENTACION */
+  .perfil {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .perfil-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #cccccc;
+    border-radius: 50%;
+    margin: 15px;
+  }
+  .perfil-img img {
+    width: 50%;
+  }
+  .perfil-titulo {
+    color: #345d7e;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  /* HERRAMIENTAS */
+  .herramientas {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .herramientas .texto-herramientas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 20px;
+    width: 80%;
+  }
+  .img-herramientas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /* SECTION PORQUE-WEB */
+  .porque-web p {
+    width: 400px;
+  }
+  /* PAGES SERVICIOS */
+  .maquetacion, .react {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 400px;
+    padding: 10px;
+  }
+  .javascrit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 400px;
+    padding: 10px;
+  }
+  .react {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 400px;
+    padding: 10px;
+  }
+  .maquetacion .info-maquetacion p, .react .info-maquetacion p {
+    width: 100%;
+    text-align: center;
+  }
+  .javascrit .info-javascrit p {
+    width: 100%;
+    text-align: center;
+  }
+  .react .info-react p {
+    width: 100%;
+    text-align: center;
+  }
+  .contacto-img img {
+    width: 400px;
+  }
+}
+
+/* RESPONSIVE TABLETS */
+@media (min-width: 864px) and (max-width: 1043px) {
+  .perfil {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 980px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .perfil-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #cccccc;
+    border-radius: 50%;
+    margin: 15px;
+  }
+  /* HERRAMIENTAS */
+  .herramientas .texto-herramientas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 20px;
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
