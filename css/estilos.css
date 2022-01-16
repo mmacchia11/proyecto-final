@@ -63,6 +63,9 @@
   font-size: 15px;
   color: #fff;
 }
+.perfil .perfil-btn:hover {
+  background-color: #f7944e;
+}
 
 .perfil-titulo {
   color: #345d7e;
@@ -101,6 +104,10 @@
   margin: 20px;
   width: 700px;
   color: #fff;
+}
+.herramientas .texto-herramientas p {
+  display: flex;
+  justify-content: center;
 }
 
 .img-herramientas {
@@ -398,6 +405,136 @@ input[type=number]::-webkit-outer-spin-button {
 /* ************************ PROYECTOS INDEX END ******************************* */
 /* RESPONSIVE */
 /* RESPONSIVE CELULAR */
+@media (min-width: 200px) and (max-width: 400px) {
+  /* PRESENTACION */
+  .perfil {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .perfil .perfil-info {
+    width: 100%;
+  }
+  .perfil .perfil-info p {
+    text-align: center;
+  }
+
+  .perfil-img {
+    display: flex;
+    justify-content: center;
+    background-color: #cccccc;
+    border-radius: 50%;
+    margin: 15px;
+    width: 90%;
+    height: 300px;
+  }
+  .perfil-img img {
+    width: 50%;
+  }
+
+  .perfil-titulo {
+    color: #345d7e;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  /* HERRAMIENTAS */
+  .herramientas {
+    height: auto;
+    display: flex;
+    width: 100%;
+  }
+  .herramientas .texto-herramientas {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 80%;
+  }
+
+  .img-herramientas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* SECTION PORQUE-WEB */
+  .porque-web p {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* PAGES SERVICIOS */
+  .maquetacion, .react {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+  }
+
+  .javascrit {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+  }
+
+  .react {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+  }
+
+  .maquetacion .info-maquetacion p, .react .info-maquetacion p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .javascrit .info-javascrit p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .react .info-react p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contacto-img img {
+    width: 400px;
+  }
+
+  /* SOBRE MI menos de 400px */
+  .sobremi-img img {
+    width: 90%;
+  }
+
+  .sobremi-imgdos img {
+    width: 90%;
+  }
+
+  /* PORYECTOS */
+  .proyecto {
+    width: 100%;
+  }
+  .proyecto img {
+    width: 90%;
+  }
+  .proyecto p {
+    text-align: center;
+  }
+
+  /* CONTACTO */
+  .contacto-img img {
+    width: 100%;
+  }
+
+  .form-contacto {
+    width: 100%;
+  }
+}
 @media (min-width: 400px) and (max-width: 863px) {
   /* PRESENTACION */
   .perfil {
